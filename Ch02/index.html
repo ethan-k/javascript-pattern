@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // the object
+        var man = {
+            hands: 2,
+            legs: 2,
+            heads: 1
+        };
+        // somewhere else in the code
+        // a method was added to all objects
+        if (typeof  Object.prototype.clone === "undefined") {
+            Object.prototype.clone = function () {};
+        }
+    </script>
+</body>
+</html>
